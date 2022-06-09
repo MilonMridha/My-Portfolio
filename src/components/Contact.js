@@ -2,9 +2,28 @@ import React from 'react';
 
 // import contact data
 import { contact } from '../data';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
+
+   const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_z13zrck', 'template_0074qb4', form.current, 'Qft34WD71Ov09GciD')
+      .then((result) => {
+          console.log(result.text);
+          toast.success('messege sent successfull')
+          e.target.reset()
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
@@ -13,7 +32,7 @@ const Contact = () => {
             Contact me
           </h2>
           <p className='subtitle'>
-           If you want contact me you can email me.
+            If you want contact me you can email me.
           </p>
         </div>
         <div
@@ -38,24 +57,34 @@ const Contact = () => {
               );
             })}
           </div>
-          <form
+          {/* <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+          </form> */}
+          <form ref={form} onSubmit={sendEmail}
             className='space-y-8 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' placeholder='Your name' name="user_name" />
+              <input className='input' type='email' placeholder='Your email' name="user_email" />
             </div>
             <input className='input' type='text' placeholder='Subject' />
             <textarea
+            name="message"
               className='textarea'
               placeholder='Your message'
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
-              Send message
-            </button>
+             <input className='btn btn-lg bg-accent hover:bg-secondary-hover' type="submit" value="Send" />
+            
           </form>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </section>
   );
 };
