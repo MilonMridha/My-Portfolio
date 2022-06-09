@@ -130,14 +130,18 @@ export const projectsData = [
     image: Project2,
     name: 'Perfume-warehouse',
     category: 'web development',
-    about: "Full-stack website and dynamic landing page with 6 sections and also responsive design.Email password and three social login functionality using firebase authentication.It has a JWT authentication and pagination system to manage all inventory sections."
+    about: "Full-stack website and dynamic landing page with 6 sections and also responsive design.Email password and three social login functionality using firebase authentication.It has a JWT authentication and pagination system to manage all inventory sections.",
+    live: "https://perfume-wear-house.web.app/",
+    git: "https://github.com/MilonMridha/wear-house-assign-11-client"
   },
   {
     id: '3',
     image: Project3,
     name: 'Travel-guide',
     category: 'web development',
-    about: "Firebase authentication system.Dynamic landing page and responsive design.Dynamic routing system using react-route."
+    about: "Firebase authentication system.Dynamic landing page and responsive design.Dynamic routing system using react-route.",
+    live: "https://perfect-tour-guide-auth.web.app/",
+    git: "https://github.com/MilonMridha/independent-occupasion-assign-10"
   },
   
   {

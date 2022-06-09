@@ -24,9 +24,7 @@ const Hero = () => {
               Hard working IT professional with huge knowledge and proficiency in Javascript, ReactJs, HTML, CSS,
               and mobile responsive web development.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
-            </button>
+            <a className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all' target="_blank" href="https://drive.google.com/file/d/1Q-uCzixxNGz0ZzeSI4YQV2kFUXxLv8kS/view?usp=sharing">Download Resume</a>
           </div>
 
 
