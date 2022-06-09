@@ -2,6 +2,7 @@ import React from 'react';
 
 // import woman image
 import WomanImg from '../assets/img/banner-woman2.webp';
+import mypic from '../assets/img/my-pic/portfolio.png'
 
 const Hero = () => {
   return (
@@ -10,13 +11,16 @@ const Hero = () => {
       className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
       <div className='container mx-auto h-full'>
-        <div className='flex items-center h-full pt-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 items-center h-full pt-8'>
+          <div className='sm:flex-col lg:flex flex-1 justify-end items-end h-full'>
+            <img src={mypic} alt='' />
+          </div>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-accent text-md mb-[22px]'>
-              Hey, I'm Milon Mridha! 👋
+
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-4xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-              I Build & Design <br /> Web Interfaces.
+              Hey, I'm Milon Mridha! 👋 <br /> MERN-Stack Developer.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
@@ -26,9 +30,7 @@ const Hero = () => {
               Work with me
             </button>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
-          </div>
+
         </div>
       </div>
     </section>

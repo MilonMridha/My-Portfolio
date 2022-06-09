@@ -22,7 +22,7 @@ const Footer = () => {
             })}
           </div>
           <div>
-            <img src={Logo} alt='' />
+            {/* <img src={Logo} alt='' /> */}
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
             &copy; 2022 Cristian Mihai. All rights reserved.
