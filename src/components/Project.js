@@ -11,6 +11,8 @@ const Project = ({ item }) => {
       <p className='text-base max-w-md'>
         {item.about}
       </p>
+      <a className='btn btn-accent' target="_blank" href={item.live}> LiveSite</a>
+      <a className='btn btn-accent' target="_blank" href={item.git}> Github</a>
     </div>
   );
 };

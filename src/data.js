@@ -121,7 +121,9 @@ export const projectsData = [
     image: Project1,
     name: 'Tire-manufacturer',
     category: 'web development',
-    about: "This is a tire manufacturing full-stack website. After login users can see individual tires of car details and order them & pay for them.Admin can add/delete any product on the website. He is also able to see all orders and cancel if he wants"
+    about: "This is a tire manufacturing full-stack website. After login users can see individual tires of car details and order them & pay for them.Admin can add/delete any product on the website. He is also able to see all orders and cancel if he wants",
+    live: "https://car-wheel-assignment.web.app/",
+    git: "https://github.com/MilonMridha/tire-manufacture-assign-12-client"
   },
   {
     id: '2',
@@ -208,27 +210,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I will try my best for web development service',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Front-end Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I will try my best for Front-end Development service.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'MERN-Stack Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I will try my best for MERN-Stack Development service.',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Figma',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I will also service figma to html',
   },
 ];
 

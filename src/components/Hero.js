@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import woman image
-import WomanImg from '../assets/img/banner-woman2.webp';
+// import WomanImg from '../assets/img/banner-woman2.webp';
 import mypic from '../assets/img/my-pic/portfolio.png'
 
 const Hero = () => {
@@ -12,9 +12,7 @@ const Hero = () => {
     >
       <div className='container mx-auto h-full'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center h-full pt-8'>
-          <div className='sm:flex-col lg:flex flex-1 justify-center mt- py-5 items-end h-full'>
-            <img src={mypic} alt='' />
-          </div>
+
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-accent text-md mb-[22px]'>
 
@@ -29,6 +27,11 @@ const Hero = () => {
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Work with me
             </button>
+          </div>
+
+
+          <div className='justify-center mt- py-5 items-end h-full'>
+            <img src={mypic} alt='' />
           </div>
 
         </div>
