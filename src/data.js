@@ -20,12 +20,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/tire-project-1.PNG';
+import Project2 from './assets/img/projects/perfume-project-2.PNG';
+import Project3 from './assets/img/projects/tour-guide.PNG';
+import Project4 from './assets/img/projects/conjumer-4.PNG';
+import Project5 from './assets/img/projects/review-5.PNG';
+// import Project6 from './assets/img/projects/p6.webp';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -119,56 +119,62 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Tire-manufacturer',
+    category: 'web development',
+    about: "This is a tire manufacturing full-stack website. After login users can see individual tires of car details and order them & pay for them.Admin can add/delete any product on the website. He is also able to see all orders and cancel if he wants"
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Perfume-warehouse',
     category: 'web development',
+    about: "Full-stack website and dynamic landing page with 6 sections and also responsive design.Email password and three social login functionality using firebase authentication.It has a JWT authentication and pagination system to manage all inventory sections."
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Travel-guide',
+    category: 'web development',
+    about: "Firebase authentication system.Dynamic landing page and responsive design.Dynamic routing system using react-route."
   },
+  
   {
     id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    image: Project5,
+    name: 'Watch-reviews',
+    category: 'web development',
+    about: "It's a react router application.This site contains some reviews of a watch.It's has a navbar which manitain different route of Home, reviews, dashboard, blogs..."
   },
   {
     id: '5',
-    image: Project5,
-    name: 'project name 5',
+    image: Project4,
+    name: 'Cosmetics-conjumar',
     category: 'web development',
+    about: "This is a single page application ecomerce site. User can add products in cart. and randomly selected one in four items"
   },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+  // {
+  //   id: '6',
+  //   image: Project6,
+  //   name: 'project name 6',
+  //   category: 'web development',
+  // },
 ];
 
 // projects
-export const projectsNav = [
-  {
-    name: 'all',
-  },
-  {
-    name: 'UI/UX Design',
-  },
-  {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
-  },
-];
+// export const projectsNav = [
+//   {
+//     name: 'all',
+//   },
+//   {
+//     name: 'UI/UX Design',
+//   },
+//   {
+//     name: 'web development',
+//   },
+//   {
+//     name: 'branding',
+//   },
+// ];
 
 // skill
 export const skills = [

@@ -12,8 +12,7 @@ const Portfolio = () => {
             My latest work
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+          There are some full-stack projects which are using react, node.js, express.js, MongoDB database, and Heroku.
           </p>
         </div>
         <Projects />

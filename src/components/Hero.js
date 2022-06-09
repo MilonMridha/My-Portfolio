@@ -11,8 +11,8 @@ const Hero = () => {
       className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
       <div className='container mx-auto h-full'>
-        <div className='grid grid-cols-1 md:grid-cols-2 items-center h-full pt-8'>
-          <div className='sm:flex-col lg:flex flex-1 justify-end items-end h-full'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center h-full pt-8'>
+          <div className='sm:flex-col lg:flex flex-1 justify-center mt- py-5 items-end h-full'>
             <img src={mypic} alt='' />
           </div>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
@@ -23,8 +23,8 @@ const Hero = () => {
               Hey, I'm Milon Mridha! 👋 <br /> MERN-Stack Developer.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+              Hard working IT professional with huge knowledge and proficiency in Javascript, ReactJs, HTML, CSS,
+              and mobile responsive web development.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Work with me
