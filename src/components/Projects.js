@@ -10,24 +10,18 @@ import Project from './Project';
 const Projects = () => {
   const [item, setItem] = useState({ name: 'all' });
   const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(0);
+  // const [active, setActive] = useState(0);
 
   useEffect(() => {
-    // get projects based on item
-    if (item.name === 'all') {
-      setProjects(projectsData);
-    } else {
-      const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
-      });
-      setProjects(newProjects);
-    }
+    fetch('https://gentle-crag-55338.herokuapp.com/project')
+    .then(res => res.json())
+    .then(data => setProjects(data))
   }, [item]);
 
-  const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index);
-  };
+  // const handleClick = (e, index) => {
+  //   setItem({ name: e.target.textContent.toLowerCase() });
+  //   setActive(index);
+  // };
 
   return (
     <div>

@@ -1,18 +1,26 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const Project = ({ item }) => {
+
+  const navigate = useNavigate();
+  const goDetails = (id) =>{
+    navigate('/project/'+id)
+  }
+console.log(item)
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
       <div className='mb-8'>
-        <img className='rounded-2xl' src={item.image} alt='' />
+        <img className='rounded-2xl' src={item.imgOne} alt='' />
       </div>
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
       <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
       <p className='text-base max-w-md'>
         {item.about}
       </p>
-      <a className='btn btn-accent' target="_blank" href={item.live}> LiveSite</a>
-      <a className='btn btn-accent' target="_blank" href={item.git}> Github</a>
+     <button className='btn btn-accent' onClick={()=> goDetails(item._id)}> Details</button>
+      
     </div>
   );
 };

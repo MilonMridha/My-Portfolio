@@ -117,54 +117,45 @@ export const brands = [
 // projects
 export const projectsData = [
   {
-    id: '1',
-    image: Project1,
-    name: 'Tire-manufacturer',
-    category: 'web development',
-    about: "This is a tire manufacturing full-stack website. After login users can see individual tires of car details and order them & pay for them.Admin can add/delete any product on the website. He is also able to see all orders and cancel if he wants",
-    live: "https://car-wheel-assignment.web.app/",
-    git: "https://github.com/MilonMridha/tire-manufacture-assign-12-client"
+    
+    "imgOne": "https://i.ibb.co/ZGC9DYW/tire-project-1.png",
+    "imgTwo": "https://i.ibb.co/cDjbZYx/tire-2.png",
+    "imgThree": "https://i.ibb.co/PTZWjWp/tire-3.png",
+    "name": "Tire-manufacturer",
+    "category": "web development",
+    "about": "This is a tire manufacturing full-stack website. After login users can see individual tires of car details and order them & pay for them.Admin can add/delete any product on the website. He is also able to see all orders and cancel if he wants",
+    "live": "https://car-wheel-assignment.web.app/",
+    "git": "https://github.com/MilonMridha/tire-manufacture-assign-12-client",
+    "details": "This is a tire manufacturing full-stack website.After login users can see individual tires of car details and order them & pay for them.It has Admin route system in page.Admin can add/delete any product on the website. He is also able to see all orders and cancel if he wants.It's contains react router firebase authentication application.It's has two part. one part is backend & other part is client or Frontend.Backend part is hosting in Heroku and frontend part is firebase.It's has a navbar which maintain different route of Home,blogs, portfolio, Login ...There are a banner of a tyre manufacture & six section of different part and a footer in homepage.Purchase page is protected by requiredAuth route."
   },
   {
-    id: '2',
-    image: Project2,
-    name: 'Perfume-warehouse',
-    category: 'web development',
-    about: "Full-stack website and dynamic landing page with 6 sections and also responsive design.Email password and three social login functionality using firebase authentication.It has a JWT authentication and pagination system to manage all inventory sections.",
-    live: "https://perfume-wear-house.web.app/",
-    git: "https://github.com/MilonMridha/wear-house-assign-11-client"
+    
+    "imgOne": "https://i.ibb.co/gyHZp7W/perfume-project-2.png",
+    "imgTwo": "https://i.ibb.co/hddQqnn/per-2.png",
+    "imgThree": "https://i.ibb.co/HPDycsK/per-3.png",
+    "name": "Perfume-warehouse",
+    "category": "web development",
+    "about": "Full-stack website and dynamic landing page with 6 sections and also responsive design.Email password and three social login functionality using firebase authentication.It has a JWT authentication and pagination system to manage all inventory sections.",
+    "live": "https://perfume-wear-house.web.app/",
+    "git": "https://github.com/MilonMridha/wear-house-assign-11-client",
+    "detail": "Full-stack website and dynamic landing page with 6 sections and also responsive design.Email password and three social login functionality using firebase authentication.It has a JWT authentication and pagination system to manage all inventory sections.It's has two part. one part is backend & other part is client or Frontend.Backend part is hosting in Heroku and frontend part is firebase.It's has a navbar which maintain different route of Home,blogs, addItems,MyItem, ManageItem, Login ...There are a carousel of a perfume storehouse & six inventories of different perfume product and a footer in homepage."
+    
   },
   {
-    id: '3',
-    image: Project3,
-    name: 'Travel-guide',
-    category: 'web development',
-    about: "Firebase authentication system.Dynamic landing page and responsive design.Dynamic routing system using react-route.",
-    live: "https://perfect-tour-guide-auth.web.app/",
-    git: "https://github.com/MilonMridha/independent-occupasion-assign-10"
-  },
+    
+    "imgOne": "https://i.ibb.co/2Zwg8xj/tour-guide.png",
+    "imgTwo": "https://i.ibb.co/DY5NFkq/tour-2.png",
+    "imgThree": "https://i.ibb.co/vdZ6hyT/tour-3.png",
+    "name": "Travel-guide",
+    "category": "web development",
+    "about": "Firebase authentication system.Dynamic landing page and responsive design.Dynamic routing system using react-route.",
+    "live": "https://perfect-tour-guide-auth.web.app/",
+    "git": "https://github.com/MilonMridha/independent-occupasion-assign-10",
+    "detail": "Firebase authentication system.Dynamic landing page and responsive design.Dynamic routing system using react-route.It,s a single page application.This site contains a individual profession of A travel Guide .It's has a navbar which maintain different route of Home, CheckOut, blogs, About, Login...There are a Background picture of a travel guide & three services and a footer in homepage..Checkout page is protected by requiredAuth route.if user not login on this site they cannot entry in checkout page."
+  }
   
-  {
-    id: '4',
-    image: Project5,
-    name: 'Watch-reviews',
-    category: 'web development',
-    about: "It's a react router application.This site contains some reviews of a watch.It's has a navbar which manitain different route of Home, reviews, dashboard, blogs..."
-  },
-  {
-    id: '5',
-    image: Project4,
-    name: 'Cosmetics-conjumar',
-    category: 'web development',
-    about: "This is a single page application ecomerce site. User can add products in cart. and randomly selected one in four items"
-  },
-  // {
-  //   id: '6',
-  //   image: Project6,
-  //   name: 'project name 6',
-  //   category: 'web development',
-  // },
-];
+  
+]
 
 // projects
 // export const projectsNav = [
