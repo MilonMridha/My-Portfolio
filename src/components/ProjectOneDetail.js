@@ -14,7 +14,7 @@ console.log(detail)
     }, [])
     return (
         <div key={detail.id} className='flex flex-col items-center text-center bg-tertiary'>
-            <div className='mb-8 grid grid-cols-1 md:grid-cols-3 gap-5 mt-10'>
+            <div className='mb-8 grid grid-cols-1 md:grid-cols-3 gap-5 px-10 mt-10'>
                 <div>
                     <img className='rounded-2xl' src={detail.imgOne} alt='' />
                 </div>

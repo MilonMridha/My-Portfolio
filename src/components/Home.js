@@ -10,6 +10,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Testimonials from './Testimonials';
 import BackTopBtn from './BackTopBtn';
+import Blogs from './Blogs';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <About />
       <Skills />
       <Portfolio />
+      <Blogs></Blogs>
       <Services />
       <Testimonials />
       <Contact />
